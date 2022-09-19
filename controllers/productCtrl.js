@@ -54,6 +54,7 @@ const productCtrl = {
         .filtering()
         .sorting()
         .paginating();
+        
 
       const products = await features.query;
 
